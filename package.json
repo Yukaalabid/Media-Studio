@@ -1,0 +1,24 @@
+{
+  "name": "everyday-media-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A reusable Indonesian-language motion graphic media starter built with Remotion.",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "preview": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts EverydayExplainer out/everyday-explainer.mp4",
+    "still": "remotion still src/index.ts EverydayExplainer out/preview.png --frame=120",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.541",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.541"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.7",
+    "typescript": "5.9.3"
+  }
+}
