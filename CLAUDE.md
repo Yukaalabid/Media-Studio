@@ -44,7 +44,7 @@ A flexible short-form structure:
 4. Insight — a useful takeaway or new perspective.
 5. Engagement — a natural question or invitation to comment.
 
-Default video target: vertical 9:16, 1080x1920, 30 fps, approximately 20–35 seconds. Change duration to serve the story, not to fill a template.
+Default video target: vertical 9:16, 1080x1920, 60 fps, approximately 40–60 seconds. Change duration to serve the story, not to fill a template.
 
 ## Visual identity system
 Use the shared design tokens in `src/styles/tokens.ts` and `brand/visual-identity.md`.
